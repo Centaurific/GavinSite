@@ -2,20 +2,20 @@ var $contactForm = $('#contact-form');
 $contactForm.submit(function(e) {
     e.preventDefault();
     $.ajax({
-        url: '//formspree.io/j.jason.bell@gmail.com',
+        url: '//formspree.io/gavondo@gmail.com',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
         beforeSend: function() {
-            $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+            $contactForm.append('<div class="alert alert--loading"></div>');
         },
         success: function(data) {
             $contactForm.find('.alert--loading').hide();
-            $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+            $contactForm.append('<div class="alert alert--success">Your message has been sent.</div>');
         },
         error: function(err) {
             $contactForm.find('.alert--loading').hide();
-            $contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
+            $contactForm.append('<div class="alert alert--error">Hmm, there has been some kind of error.</div>');
         }
     });
 });
