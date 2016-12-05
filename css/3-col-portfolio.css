@@ -8,6 +8,27 @@ body {
     padding-top: 45px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.top-buffer { 
+    margin-top:30px; 
+}
+
+.bottom-buffer { 
+    margin-bottom:30px; 
+}
+
+.special {
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 100;
+    font-size: large;
+}
+
+.special2 {
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 100;
+    font-size: 15pt;
+}
 
 .portfolio-item {
     margin-bottom: 25px;
