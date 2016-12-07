@@ -14,14 +14,14 @@ body {
 
 .special {
     text-align: center;
-    font-family: Avenir;
+    font-family: Muli;
     font-weight: 100;
     font-size: large;
 }
 
 .special2 {
     text-align: center;
-    font-family: Avenir;
+    font-family: Muli;
     font-weight: 100;
     font-size: 15pt;
 }
@@ -91,7 +91,7 @@ form .btn:focus:active {
 
 .title {
     text-align: center;
-    font-family: Avenir;
+    font-family: Muli;
     font-weight: 100;
     font-size: xx-large;
     text-transform: uppercase;
@@ -104,7 +104,7 @@ form .btn:focus:active {
 .nav-list {
     text-align: center;
     letter-spacing: 3px;
-    font-family: Avenir;
+    font-family: Muli;
     color: #636363;
     margin-bottom: 10px;
 
